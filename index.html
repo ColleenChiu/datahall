@@ -1,4 +1,70 @@
-<title>Data Hall Drawings</title>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data centre drawings, 3D and EBO graphics · Yangline</title>
+<meta name="description" content="Remote drafting support for data centre teams: general arrangement plans, rack layouts and 3D visuals of white space, plus Schneider EcoStruxure Building Operation (EBO) operator screens, point lists and alarm lists. Based in Taiwan, GMT+8.">
+<link rel="canonical" href="https://yangline.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Data centre drawings, 3D and EBO graphics · Yangline">
+<meta property="og:description" content="Remote drafting support for data centre teams: general arrangement plans, rack layouts and 3D visuals of white space, plus Schneider EcoStruxure Building Operation (EBO) operator screens, point lists and alarm lists. Based in Taiwan, GMT+8.">
+<meta property="og:url" content="https://yangline.com/">
+<meta property="og:site_name" content="Yangline">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://yangline.com/#studio",
+   "name": "Yangline",
+   "legalName": "Yang-Lin Digital Marketing Co., Ltd.",
+   "url": "https://yangline.com/",
+   "email": "colleen@yangline.com",
+   "logo": "https://yangline.com/logo.png",
+   "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "TW"
+   },
+   "areaServed": [
+    {
+     "@type": "Country",
+     "name": "Australia"
+    },
+    {
+     "@type": "Country",
+     "name": "Singapore"
+    },
+    {
+     "@type": "Country",
+     "name": "Malaysia"
+    }
+   ],
+   "founder": {
+    "@type": "Person",
+    "name": "Colleen Chiu"
+   },
+   "knowsAbout": [
+    "Schneider Electric EcoStruxure Building Operation (EBO)",
+    "TGML operator graphics",
+    "BMS point lists and alarm lists",
+    "Data centre general arrangement drawings",
+    "Data centre 3D visualisation"
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://yangline.com/#page",
+   "url": "https://yangline.com/",
+   "name": "Data centre drawings, 3D and EBO graphics",
+   "about": {
+    "@id": "https://yangline.com/#studio"
+   }
+  }
+ ]
+}
+</script>
 <script>window.goatcounter={path:function(p){return location.pathname+location.search}}</script>
 <script data-goatcounter="https://yangline.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -97,7 +163,22 @@
   .lb .close { position:absolute; top:18px; right:24px; color:#E4E7E9;
     font-family:"IBM Plex Mono",monospace; font-size:13px; letter-spacing:.14em; }
   @media (prefers-reduced-motion:reduce){ *{animation:none!important;transition:none!important} }
+
+  .services { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; }
+  .service { border:1px solid var(--rule); padding:clamp(24px,3.4vw,34px); display:block;
+    color:var(--ink); text-decoration:none; background:var(--surface); }
+  .service:hover { border-color:var(--accent); }
+  .service .eyebrow { margin-bottom:14px; }
+  .service h2 { font-size:clamp(21px,2.4vw,26px); line-height:1.2; margin-bottom:.5em; }
+  .service p { color:var(--ink-2); margin:0 0 1em; font-size:16px; }
+  .service .go { font-family:"IBM Plex Mono",monospace; font-size:13px; letter-spacing:.08em; color:var(--accent); }
+  nav.crumb { font-family:"IBM Plex Mono",monospace; font-size:13px; letter-spacing:.08em; margin-bottom:28px; }
+  ul.list { margin:0 0 1.4em; padding:0; list-style:none; max-width:64ch; }
+  ul.list li { padding:16px 0; border-top:1px solid var(--rule); }
+  ul.list b { display:block; margin-bottom:.2em; }
 </style>
+</head>
+<body>
 
 <div class="sheet">
 
@@ -107,13 +188,33 @@
       <div class="bar"></div>
       <div>
         <div class="name">YANGLINE</div>
-        <div class="role">Data centre drawing &amp; 3D visualisation support</div>
+        <div class="role">Data centre drawings, 3D &amp; EBO graphics</div>
       </div>
     </div>
-    <p class="eyebrow">Data centre white space · drawings &amp; 3D</p>
-    <h1>I draw the inside of data centres.</h1>
-    <p class="lede">General arrangement plans, floor plans, rack layouts and 3D visuals of white space — for teams that are out of drafting capacity.</p>
+    <p class="eyebrow">Data centre white space · drawings, 3D &amp; BMS graphics</p>
+    <h1>I draw the inside of data centres, and the screens that run them.</h1>
+    <p class="lede">General arrangement plans, rack layouts and 3D visuals of white space, plus Schneider EcoStruxure Building Operation (EBO) operator screens and point lists. Remote support for teams that are out of capacity.</p>
   </header>
+
+  <hr class="rule">
+
+  <section class="band tight">
+    <p class="eyebrow">Two services</p>
+    <div class="services">
+      <a class="service" href="#studies">
+        <p class="eyebrow">01 · Drawings &amp; 3D</p>
+        <h2>Data hall drawings and 3D visuals</h2>
+        <p>General arrangement plans, rack layouts, axonometrics and rendered views of white space and plant rooms, for proposals and design reviews.</p>
+        <span class="go">See the studies below ↓</span>
+      </a>
+      <a class="service" href="/ebo-graphics/">
+        <p class="eyebrow">02 · EBO graphics</p>
+        <h2>EcoStruxure Building Operation screens</h2>
+        <p>Operator screens, point lists and alarm lists for data centre projects, built to your templates. For Schneider EcoXpert integrators in Australia, Singapore and Malaysia.</p>
+        <span class="go">EBO graphics →</span>
+      </a>
+    </div>
+  </section>
 
   <hr class="rule">
 
@@ -127,7 +228,7 @@
 
   <hr class="rule">
 
-  <section class="band">
+  <section class="band" id="studies">
     <p class="eyebrow">Study 01</p>
     <h2>L-shaped floor, white space and grey space</h2>
     <p class="sub">36.0 × 24.0 m L-plan · data hall 72 racks · UPS, battery, LV, generator, chiller plant</p>
@@ -307,3 +408,5 @@
     document.addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
   })();
 </script>
+</body>
+</html>
